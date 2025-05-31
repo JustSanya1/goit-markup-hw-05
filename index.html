@@ -664,30 +664,32 @@
         </div>
 
         <div class="subscribe-wrapper">
-          <label class="subscribe-label"
-            >Subscribe
-            <input
-              class="email-subscribe-input"
-              name="email_subscribe"
-              type="email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="subscribe-button" type="submit">
-            Subscribe &nbsp;
-            <svg class="subscribe-icon" width="24" height="20">
-              <use
-                class="subscrive-icon-use"
-                href="./images/icons.svg#send-icon"
-              ></use>
-            </svg>
-          </button>
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="email-subscribe-input"
+                name="email_subscribe"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use
+                  class="subscrive-icon-use"
+                  href="./images/icons.svg#send-icon"
+                ></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
 
     <!-- !MODAL -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-modal-button" type="button">
           <svg class="close-modal-button-icon" width="8" height="8">
@@ -707,7 +709,7 @@
               <input
                 class="input"
                 id="user-name"
-                name="name_input"
+                name="user-name"
                 type="text"
                 required
               />
